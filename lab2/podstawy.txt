@@ -1,0 +1,42 @@
+a) System kontroli wersji: jest to oprogramowanie s³u¿¹ce do œledzenia zmian g³ównie w kodzie Ÿród³owym oraz pomocy programistom w ³¹czeniu zmian dokonanych przez wiele osób w ró¿nych momentach.
+b) Typowy "workflow" wygl¹da nastêpuj¹co:
+    -> Pliki tworzymy i modyfikujemy w katalogu roboczym,
+    -> Jeœli chcemy, by zmiany zosta³y uwzglêdnione, pliki przenosimy do przechowalni,
+    -> Gdy chcemy zachowaæ bie¿¹cy stan projektu w repozytorium, zatwierdzamy zmiany
+c) Rosproszony system kontroli wersji polega na tym, ¿e nie jest wymagany ci¹g³y dostêp do centralnego repozytorium,  a w scentralizowanym systemie istnieje jedno centralne repozytorium, z którym wszyscy u¿ytkownicy systemu synchronizuj¹ swoje zmiany.
+
+d) 
+init - git init inicjalizuje katalog jako repozytorium git'a.
+
+clone - git clone kopiuje repozytorium git'a tworz¹c nowy katalog zawieraj¹cy pliki Ÿród³owe i repozytorium z ca³¹ histori¹ projektu.
+
+add - git add dodaje nowo utworzone pliki do przechowalni (zaczyna siê œledzenie ich zmian) ale tak¿e umieszcza w przechowalni œledzone ju¿ pliki, które zmieni³y siê od ostatniego zatwierdzenia.
+
+status - git status pokazuje status plików w katalogu roboczym i w przechowalni.
+
+diff - git diff pokazuje zmiany w plikach w katalogu roboczym i w przechowalni
+
+commit - git commit zatwierdza zmiany.
+
+reset - resetuje zmiany w lokalnym repozytorium.
+
+rm - usuwanie pliku z katalogu roboczego.
+
+mv - zmiany nazwy pliku w repozutorium.
+
+branch - git branch zarz¹dza ga³êziami dostêpnymi w repozytorium, mo¿na: utworzyæ ga³¹Ÿ, zmieniæ jej nazwê, usun¹æ ga³¹Ÿ b¹dŸ wyœwietliæ ich listê.
+
+checkout - git checkout prze³¹cza nas do innej ga³êzi.
+
+merge - git merge scala/³¹czy podan¹ ga³¹Ÿ, z t¹, na której pracujemy.
+
+log - git log pokazuje historiê zatwierdzeñ ga³êzi, na której pracujemy.
+
+stash - Polecenie stash pozwala na chwilowe “odsuniêcie” aktualnie wprowadzonych do projektu zmian bez koniecznoœci commitowania ich.
+
+pull - git pull pobiera obiekty i referencje ze zdalnego repozytorium (polecenie git fetch), nastêpnie próbuje scaliæ zdaln¹ ga³¹Ÿ do ga³êzi lokalnej na której pracujemy, jeœli ta œledzi ga³¹Ÿ .
+zdaln¹.
+
+push - git push wysy³a nasze nowe ga³êzie i nowe zmiany do zdalnego repozytorium
+
+diff -  wyœwietla zmiany w repozytorium
