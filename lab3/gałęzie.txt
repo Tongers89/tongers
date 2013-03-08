@@ -1,0 +1,12 @@
+a. Ga³¹Ÿ w Gicie jest po prostu lekkim, przesuwalnym wskaŸnikiem na któryœ z owych zestawów zmian. Domyœlna nazwa ga³êzi Gita to master. Kiedy zatwierdza siê pierwsze zmiany, otrzymuje siê ga³¹Ÿ master, która wskazuje na ostatni zatwierdzony przez u¿ytkownika zestaw. Z ka¿dym zatwierdzeniem automatycznie przesuwa siê ona do przodu.
+
+b. Domyœlna nazwa ga³êzi w sytemie GIT to "Master"
+c. S³u¿y do sprawdzania na której aktualnie ga³êzi siê siedzi.
+d.  -git branch test
+    -git checkout test
+    -git merge foo
+    -HEAD
+    -git branch
+    -git branch -v
+    -git branch --merged
+    -git branch -d
